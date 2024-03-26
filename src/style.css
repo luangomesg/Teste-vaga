@@ -337,8 +337,14 @@ footer {
     .container-boxes {
         grid-template-columns: repeat(1, 1fr) !important;
 
+        justify-items: center;
+
+
+
+
         div {
-            margin-left: 200px;
+            margin-left: 0px;
+
         }
     }
 
@@ -362,5 +368,30 @@ footer {
     .image-boxes {
         text-align: center;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        p {
+            transform: translateX(0);
+        }
+    }
+
+    footer {
+        height: 180px;
+
+        .container-footer1 {
+            display: grid;
+            gap: 10px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+        }
     }
 }
