@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+    <title>Teste de HTML, CSS e JS</title>
+
+</head>
+
+<body>
+    <header>
+        <p>11 1234-1234</p>
+        <p>11 1234-1234</p>
+    </header>
+
+    <nav>
+        <div class="containerNav1">
+            <img src="./public/images/logo.jpg" alt="logo" />
+        </div>
+
+        <div class="containerNav2">
+            <ul>
+                <li>HOME</li>
+                <li class="dropdown">
+                    EMPRESA
+                    <ul class="submenu">
+                        <li>Subitem 1</li>
+                        <li>Subitem 1</li>
+                        <li>Subitem 1</li>
+                        <li class="dropdown2">
+                            Subitem 1
+                            <ul class="submenu2">
+                                <li>Subitem 2</li>
+                                <li>Subitem 2</li>
+                                <li>Subitem 2</li>
+                                <li>Subitem 2</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>CLIENTES</li>
+                <li>CONTATO</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="public/images/banner-1.jpg" alt="banner 1" /></li>
+                    <li class="splide__slide"><img src="public/images/banner2.jpg" alt="banner 2" /></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <section class="container-teste">
+        <div class="container-teste1">
+            <h1>TESTE DE HTML E CSS</h1>
+            <p class="p1">Quesitos de avaliação</p>
+            <ul>
+                <li>Organização do código (quanto mais limpo melhor)</li>
+                <li>Nível de detalhismo (quanto mais identico melhor)</li>
+                <li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto)</li>
+            </ul>
+            <p class="p2">Ao finalizar o teste, envie zipado o código para o e-mail com o tempo gasto e seu cv anexado.
+            </p>
+            <p>Obrigado e boa sorte!</p>
+        </div>
+
+        <div class="container-teste2">
+            <img src="public/images/image.png" alt="image teste" />
+        </div>
+    </section>
+    <div class="image-boxes">
+        <h1>BOXES DE DESTAQUE</h1>
+        <div class="container-boxes">
+            <div>
+                <img src="public/images/cactus.png" alt="cactus imagem" />
+                <span><a href="public/images/cactus.png" target="_blank">Lorem ipsum dolor sit amet
+                        consectetur.</a></span>
+            </div>
+            <div>
+                <img src="public/images/natal.png" alt="natal imagem" />
+                <span><a href="public/images/natal.png" target="_blank">Lorem ipsum dolor sit amet
+                        consectetur.</a></span>
+            </div>
+            <div>
+                <img src="public/images/noz.jpg" alt="noz imagem" />
+                <span><a href="public/images/noz.jpg" target="_blank">Lorem ipsum dolor sit amet consectetur.</a></span>
+            </div>
+            <div>
+                <img src="public/images/olhos.png" alt="olhos imagem" />
+                <span><a href="public/images/olhos.png" target="_blank">Lorem ipsum dolor sit amet
+                        consectetur.</a></span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer1">
+            <p>HOME</p>
+            <p>EMPRESA</p>
+            <p>CLIENTES</p>
+            <p>CONTATO</p>
+        </div>
+        <div class="container-footer2">
+            <h3>RODAPE</h3>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+    var splide = new Splide('.splide');
+    splide.mount();
+</script>
+
+</html>
